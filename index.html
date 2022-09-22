@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>T E M P L A T E</title>
+</head>
+<body>
+    <header class="bg-white flex justify-between items-center p-2 shadow border">
+        <div class="logo text-2xl">
+            <span class="text-black font-bold">TEMPLATE</span>.COM
+        </div>
+        <div class="search-box relative">
+            <input type="text" placeholder="Search your favorite template" class="rounded border-0 outline-0 p-3 w-full bg-gray-200">
+            <button type="submit" class="border-0 outline-0 rounded-r absolute top-0 right-0 py-3 px-5 bg-blue-500 text-white"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="pricing">
+            <a href="#" class="mx-2 text-md py-2 px-5 bg-blue-800 rounded text-white">Pricing</a>
+            <a href="#" class="mx-2 text-md py-2 px-5 bg-blue-800 rounded text-white">Sign In</a>
+        </div>
+        <div class="open-menu hidden" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <nav class="bg-white shadow p-2" id="myNav">
+        <div class="close-menu text-2xl closebtn hidden" onclick="closeNav()">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        <ul class="m-0 p-0">
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Trending</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">MS Word</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Google Docs</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Apple Pages</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">PSD</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Indesign</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">PNG</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Illustrator (AI)</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">MS Publisher</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">SVG</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Vectors (EPS)</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">PDF</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Excel</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Google Sheets</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Apple Numbers</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Power Point</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Slides</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Keynote</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Backgrounds</a></li>
+            <li class="inline-block"><a href="#" class="text-sm py-2 px-1 block hover:text-red-500">Outlook</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner max-w-6xl m-auto bg-blue-500 rounded-xl py-20 px-48 my-5">
+        <h1 class="text-4xl text-white text-center pb-10 font-bold">Ready - Made Templates</h1>
+        <p class="text-white text-xl pb-10 text-center">Find Free Ready-Made Designs, Documents & Templates for everyone</p>
+        <div class="search-banner relative">
+            <input type="text" placeholder="Search your favorite template" class="border-0 outline-0 w-full p-3 rounded">
+            <button type="submit" class="py-3 px-5 text-white bg-blue-800 absolute border-0 outline-0 top-0 right-0 rounded-r"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="blog-1 max-w-6xl m-auto">
+        <h1 class="text-3xl text-black text-center font-bold py-5">Free Online Editor</h1>
+        <div class="inline-block">
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/1.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Microsoft Template Suite</h1>
+                    <p class="text-md text-black py-1">40,000+ Free & Premium Microsoft 365 App Templates in Word, Excel, PowerPoint, Publisher & Outlook.</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/2.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Google Template Suite</h1>
+                    <p class="text-md text-black py-1">15,000+ Free & Premium Google Workspace Templates in Google Docs, Sheets, Slides.</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/3.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Apple Template Suite</h1>
+                    <p class="text-md text-black py-1">30,000+ Free & Premium iWork Templates in Apple Pages, Apple Numbers, Apple Keynote.</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/4.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Adobe Template Suite</h1>
+                    <p class="text-md text-black py-1">70,000+ Free & Premium Adobe Creative Cloud Templates in Photoshop, Illustrator, InDesign, PDF.</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/5.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Graphic Editor</h1>
+                    <p class="text-md text-black py-1">20,000+ Free & Premium Ready-Made Templates to Customize, Animate, Download, Share or Print.</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/6.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Document Editor</h1>
+                    <p class="text-md text-black py-1">20,000+ Free & Premium Ready-Made Templates to Edit Online, Send as Email, Share, Track, e-Sign, Download & more.</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/7.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Social Media Management</h1>
+                    <p class="text-md text-black py-1">10,000+ Free & Premium Templates to Create & Publish to Facebook, Instagram, Twitter, LinkedIn, Pinterest, Youtube, Whatsapp & Snapchat.</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/3">
+                <div class="box shadow p-5 m-3 rounded">
+                    <img src="./img/8.png" alt="" class="rounded">
+                    <h1 class="text-black text-lg font-bold py-2">Video Editor</h1>
+                    <p class="text-md text-black py-1">1,000+ Free & Premium Ready-Made Video Templates to Customize, Animate, Effects, Download, Share & Publish</p>
+                    <p class="text-blue-500 text-md">Learn more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-2 max-w-6xl m-auto">
+        <h1 class="text-3xl text-black text-center font-bold py-5">Free Downloads</h1>
+        <div class="inline-block">
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-1.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-2.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-3.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-4.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-5.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-6.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-7.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-8.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/1-9.png" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="float-left shadow main-box w-1/5">
+                <div class="rounded m-3 box shadow">
+                    <img src="./img/2-1.png" alt="" class="rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-700 border shadow">
+        <div class="main-box max-w-7xl m-auto">
+            <div class="grid grid-cols-12 gap-5">
+                <div class="col-span-4">
+                    <h1 class="text-2xl font-bold text-center text-white py-3">BROWSE</h1>
+                    <div class="flex justify-around py-5">
+                        <ul>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Design Templates</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Document Templates</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Create</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Holiday Marketing</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Business</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Vectors</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Backgrounds</a></li>
+                        </ul>
+                        <ul>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Charts</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Drawing</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Colouring Pages</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Quotes</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">File Formats</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Learn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-span-4">
+                    <h1 class="text-2xl font-bold text-center text-white py-3">FILE FORMATS</h1>
+                    <div class="flex justify-around py-5">
+                        <ul>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">MS Word</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">MS Excel</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">MS Outlook</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">MS Powerpoint</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">MS Publisher</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Google Docs</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Google Sheets</a></li>
+                        </ul>
+                        <ul>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">HTML5</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Adobe Photoshop</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Adobe Illustrator</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Adobe Indesign</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Apple Pages</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Apple Numbers</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Apple Keynotes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-span-4">
+                    <h1 class="text-2xl font-bold text-center text-white py-3">COMPANY</h1>
+                    <div class="flex justify-around py-5">
+                        <ul>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">About Us</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Read Blog</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Contact</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Disclaimer</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Support/FAQs</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">License Agreement</a></li>
+                        </ul>
+                        <ul>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Terms & Conditions</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Right Policy</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Privacy Policy</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Terms of Use</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Brand Guidelines</a></li>
+                            <li class="py-1"><a href="#" class="text-md text-gray-400 hover:text-red-500">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
